@@ -1,0 +1,89 @@
+.Home {
+    background-color: rgb(137, 115, 136);
+    min-height: 60vh;
+    color: rgb(255, 217, 0);
+    /* color: rgb(96, 197, 255); */
+    padding: 150px 120px;
+    padding-bottom: 154px;
+}
+
+.HomeNotes {
+    font-weight: lighter;
+    cursor: default;
+}
+
+.SearchBarTitle {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.SearchInputContainer {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    width: 400px;
+    padding: 10px;
+}
+
+.SearchButton {
+    cursor: pointer;
+    z-index: 100;
+    background-color: #FFD900;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.NoteList {
+    padding-top: 50px;
+}
+
+.NoNotesFoundSearch {
+    font-size: 2vh;
+    padding-top: 5vh;
+    font-weight: 100;
+    color: rgb(192, 200, 207);
+}
+
+.Note {
+    padding: 30px 0px;
+    padding-left: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(170, 146, 170) !important;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+    min-width: "300px" !important;
+}
+
+.NoteContent {
+    min-width: "300px" !important;
+    cursor: default;
+}
+
+.Note:hover {
+    box-shadow: 1px 1px 20px rgb(32, 32, 32);
+}
+
+@media (max-width: 600px) {
+    .Home {
+        background-color: rgb(137, 115, 136);
+        min-height: 80vh;
+        height: auto;
+        color: rgb(255, 217, 0);
+        /* color: rgb(96, 197, 255); */
+        padding: 15px 15px;
+        padding-bottom: 154px;
+    }
+    .Note {
+        padding: 20px; 
+      }
+    
+    .NoteContent {
+        font-size: 14px;
+    }
+    .SearchInputContainer {
+        width: 300px;
+        padding: 10px;
+    }
+  }
+  
